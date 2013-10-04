@@ -1,6 +1,6 @@
 [
 	{
-		"name": "rust-postgres",
+		"name": "postgres",
 		"repo": "https://github.com/sfackler/rust-postgres.git",
 		"author": "Steven Fackler",
 		"crate_root": "rust-postgres/src/postgres/lib.rs",
@@ -8,7 +8,7 @@
 		"commands": null
 	},
 	{
-		"name": "rust-http",
+		"name": "http",
 		"repo": "https://github.com/chris-morgan/rust-http.git",
 		"author": "Chris Morgan",
 		"crate_root": "rust-http/src/libhttp/lib.rs",
@@ -16,7 +16,7 @@
 		"commands": [{"program": "make", "args": ["-j2"], "env": null}]
 	},
 	{
-		"name": "noise-rs",
+		"name": "noise",
 		"repo": "https://github.com/bjz/noise-rs.git",
 		"author": "Brendan Zabarauskas",
 		"crate_root": "noise-rs/src/noise/lib.rs",
