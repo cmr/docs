@@ -1,26 +1,34 @@
 [
-	{
-		"name": "postgres",
-		"repo": "https://github.com/sfackler/rust-postgres.git",
-		"author": "Steven Fackler",
-		"crate_root": "rust-postgres/src/postgres/lib.rs",
-		"description": "A native PostgreSQL driver for Rust",
-		"commands": null
-	},
-	{
-		"name": "http",
-		"repo": "https://github.com/chris-morgan/rust-http.git",
-		"author": "Chris Morgan",
-		"crate_root": "rust-http/src/libhttp/lib.rs",
-		"description": "Rust HTTP library (server and client)",
-		"commands": [{"program": "make", "args": ["-j2"], "env": null}]
-	},
-	{
-		"name": "noise",
-		"repo": "https://github.com/bjz/noise-rs.git",
-		"author": "Brendan Zabarauskas",
-		"crate_root": "noise-rs/src/noise/lib.rs",
-		"description": "Procedural noise generation library for Rust",
-		"commands": null
-	}
+{
+	"name": "postgres",
+	"repo": "https://github.com/sfackler/rust-postgres.git",
+	"author": "Steven Fackler",
+	"crate_root": "rust-postgres/src/postgres/lib.rs",
+	"description": "A native PostgreSQL driver for Rust",
+	"commands": null
+},
+{
+	"name": "http",
+	"repo": "https://github.com/chris-morgan/rust-http.git",
+	"author": "Chris Morgan",
+	"crate_root": "rust-http/src/libhttp/lib.rs",
+	"description": "Rust HTTP library (server and client)",
+	"commands": [{"program": "make", "args": ["-j2"], "env": null}]
+},
+{
+	"name": "noise",
+	"repo": "https://github.com/bjz/noise-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "noise-rs/src/noise/lib.rs",
+	"description": "Procedural noise generation library for Rust",
+	"commands": null
+},
+{
+	"name": "sqlite",
+	"repo": "https://github.com/linuxfood/rustsqlite.git",
+	"author": "Brian Smith",
+	"crate_root": "rustsqlite/lib.rs",
+	"description": "SQLite3 Bindings for Rust",
+	"commands": null
+}
 ]
