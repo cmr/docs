@@ -1,0 +1,18 @@
+[
+	{
+		"name": "rust-postgres",
+		"repo": "https://github.com/sfackler/rust-postgres.git",
+		"author": "Steven Fackler",
+		"crate_root": "rust-postgres/src/postgres/lib.rs",
+		"description": "A native PostgreSQL driver for Rust",
+		"commands": null
+	},
+	{
+		"name": "rust-http",
+		"repo": "https://github.com/chris-morgan/rust-http.git",
+		"author": "Chris Morgan",
+		"crate_root": "rust-http/src/libhttp/lib.rs",
+		"description": "Rust HTTP library (server and client)",
+		"commands": [{"program": "make", "args": ["-j2"], "env": null}]
+	}
+]
