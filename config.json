@@ -14,5 +14,13 @@
 		"crate_root": "rust-http/src/libhttp/lib.rs",
 		"description": "Rust HTTP library (server and client)",
 		"commands": [{"program": "make", "args": ["-j2"], "env": null}]
+	},
+	{
+		"name": "noise-rs",
+		"repo": "https://github.com/bjz/noise-rs.git",
+		"author": "Brendan Zabarauskas",
+		"crate_root": "noise-rs/src/noise/lib.rs",
+		"description": "Procedural noise generation library for Rust",
+		"commands": null
 	}
 ]
