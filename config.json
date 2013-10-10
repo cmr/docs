@@ -31,4 +31,44 @@
 	"description": "SQLite3 Bindings for Rust",
 	"commands": null
 }
+{
+	"name": "sax",
+	"repo": "https://github.com/bjz/sax-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "src/sax/lib.rs",
+	"description": "Wrapper for libxml2's SAX parser",
+	"commands": null
+},
+{
+	"name": "color",
+	"repo": "https://github.com/bjz/color-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "src/color.rs",
+	"description": "A library that provides types and conversions for working with various color formats",
+	"commands": null
+},
+{
+	"name": "cgmath",
+	"repo": "https://github.com/bjz/cgmath-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "src/cgmath/lib.rs",
+	"description": "A linear algebra and mathematics library for computer graphics",
+	"commands": null
+},
+{
+	"name": "gl",
+	"repo": "https://github.com/bjz/gl-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "src/gl/lib.rs",
+	"description": "An OpenGL function pointer loader"
+	"commands": null
+},
+{
+	"name": "glfw",
+	"repo": "https://github.com/bjz/glfw-rs.git",
+	"author": "Brendan Zabarauskas",
+	"crate_root": "src/glfw/lib.rs",
+	"description": "GLFW3 bindings and wrapper",
+	"commands": null
+}
 ]
