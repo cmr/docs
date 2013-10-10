@@ -30,7 +30,7 @@
 	"crate_root": "sqlite/lib.rs",
 	"description": "SQLite3 Bindings for Rust",
 	"commands": null
-}
+},
 {
 	"name": "sax",
 	"repo": "https://github.com/bjz/sax-rs.git",
@@ -60,7 +60,7 @@
 	"repo": "https://github.com/bjz/gl-rs.git",
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/gl/lib.rs",
-	"description": "An OpenGL function pointer loader"
+	"description": "An OpenGL function pointer loader",
 	"commands": null
 },
 {
