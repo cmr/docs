@@ -2,6 +2,7 @@
 {
 	"name": "postgres",
 	"repo": "https://github.com/sfackler/rust-postgres.git",
+	"branch": null,
 	"author": "Steven Fackler",
 	"crate_root": "lib.rs",
 	"description": "A native PostgreSQL driver for Rust",
@@ -10,6 +11,7 @@
 {
 	"name": "http",
 	"repo": "https://github.com/chris-morgan/rust-http.git",
+	"branch": null,
 	"author": "Chris Morgan",
 	"crate_root": "src/libhttp/lib.rs",
 	"description": "Rust HTTP library (server and client)",
@@ -18,6 +20,7 @@
 {
 	"name": "noise",
 	"repo": "https://github.com/bjz/noise-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/noise/lib.rs",
 	"description": "Procedural noise generation library for Rust",
@@ -26,6 +29,7 @@
 {
 	"name": "sqlite",
 	"repo": "https://github.com/linuxfood/rustsqlite.git",
+	"branch": null,
 	"author": "Brian Smith",
 	"crate_root": "src/sqlite/lib.rs",
 	"description": "SQLite3 Bindings for Rust",
@@ -34,6 +38,7 @@
 {
 	"name": "sax",
 	"repo": "https://github.com/bjz/sax-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/sax/lib.rs",
 	"description": "Wrapper for libxml2's SAX parser",
@@ -42,6 +47,7 @@
 {
 	"name": "color",
 	"repo": "https://github.com/bjz/color-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/color.rs",
 	"description": "A library that provides types and conversions for working with various color formats",
@@ -50,6 +56,7 @@
 {
 	"name": "cgmath",
 	"repo": "https://github.com/bjz/cgmath-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/cgmath/lib.rs",
 	"description": "A linear algebra and mathematics library for computer graphics",
@@ -58,6 +65,7 @@
 {
 	"name": "gl",
 	"repo": "https://github.com/bjz/gl-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/gl/lib.rs",
 	"description": "An OpenGL function pointer loader",
@@ -66,9 +74,19 @@
 {
 	"name": "glfw",
 	"repo": "https://github.com/bjz/glfw-rs.git",
+	"branch": null,
 	"author": "Brendan Zabarauskas",
 	"crate_root": "src/glfw/lib.rs",
 	"description": "GLFW3 bindings and wrapper",
+	"commands": null
+},
+{
+	"name": "encoding",
+	"repo": "https://github.com/lifthrasiir/rust-encoding.git",
+	"branch": "rust-0.9-pre",
+	"author": "Kang Seonghoon",
+	"crate_root": "src/encoding.rs",
+	"description": "Character encoding support for Rust",
 	"commands": null
 }
 ]
