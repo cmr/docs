@@ -88,5 +88,14 @@
 	"crate_root": "src/encoding.rs",
 	"description": "Character encoding support for Rust",
 	"commands": null
+},
+{
+	"name": "ssl",
+	"repo": "https://github.com/sfackler/rust-ssl.git",
+	"branch": null,
+	"author": "Steven Fackler",
+	"crate_root": "lib.rs",
+	"description": "OpenSSL bindings",
+	"commands": null
 }
 ]
